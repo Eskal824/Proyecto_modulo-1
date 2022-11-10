@@ -4,49 +4,50 @@
     box-sizing: content-box;
 }
 
-body{
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*body{
+    background: #0F2027;  
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
 
-}
+}*/
 
 .about_me{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    border-color: black;
-    border-style: solid;
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     flex-direction: column;
     width: 100%;
-    margin-top: 30px;
-    color: azure
+    margin-top: px;
+    color: rgb(8, 116, 71)
     
 }
 
 h1{
     font-family: monospace;
     font-size: 50px;
-    color: azure;
+    color: rgb(6, 70, 43);
 
 
 }
 h2{
     font-family: monospace;
     font-size: 30px;
-    color: azure;
+    color: rgb(19, 134, 67);
 }
 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color: azure
+    color: rgb(14, 85, 46)
 
 }
 
 p{
 
-    margin-top: 10px;
+    margin-top: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 25px;
     font-weight: bolder;
@@ -98,3 +99,28 @@ a{
 .email:hover{
     background-color: aquamarine;
 }
+
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+    background-color: #0F2027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar-brand{
+    height: 60px;
+}
+
+.nav-item{
+    height: 110px;
+}
+
