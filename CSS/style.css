@@ -123,4 +123,24 @@ a{
 .nav-item{
     height: 110px;
 }
+#sobremi{
+    background-color: aliceblue;
+    padding: 50px 0px 30px 0px;
 
+}
+#sobremi p {
+    text-align: justify;
+    font-size: 20px;
+    
+}
+#sobremi img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    justify-content: left;
+    
+}
+#info-one{
+    width: 300px;
+    height: 300px;
+}
