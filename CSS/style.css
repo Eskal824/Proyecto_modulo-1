@@ -1,0 +1,100 @@
+* , html{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.about_me{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    color: azure
+    
+}
+
+h1{
+    font-family: monospace;
+    font-size: 50px;
+    color: azure;
+
+
+}
+h2{
+    font-family: monospace;
+    font-size: 30px;
+    color: azure;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: azure
+
+}
+
+p{
+
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.profile_image{
+    margin-top: 10px;
+    border-radius: 55%;
+    height: 250px;
+    width: 250px;
+
+}
+.networks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+a{
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    margin: 5PX;
+}
+
+.email{
+    margin: 20px 0px 10px 0px;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 6%;
+}
+
+.email:hover{
+    background-color: aquamarine;
+}
